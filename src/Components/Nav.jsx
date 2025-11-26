@@ -24,23 +24,23 @@ export function Nav() {
               Programs <ChevronDown size={16} />
             </button>
             <div className="dropdown-card shadow-lg rounded-xl position-absolute">
-              <a href="#" className="dropdown-link">Undergraduate (Bachelor's Degree)</a>
-              <a href="#" className="dropdown-link">Graduate (Master's Degree)</a>
-              <a href="#" className="dropdown-link">PhD / Research</a>
-              <a href="#" className="dropdown-link rounded-b-xl">Diploma / Certificate</a>
+              <a href="/undergraduate-bachelors-degree" className="dropdown-link">Undergraduate (Bachelor's Degree)</a>
+              <a href="/postgraduate-masters-degree" className="dropdown-link">Graduate (Master's Degree)</a>
+              <a href="/phd-research" className="dropdown-link">PhD / Research</a>
+              <a href="/diploma-certificate-courses" className="dropdown-link rounded-b-xl">Diploma / Certificate</a>
             </div>
           </div>
 
           <a href="/universities" className="nav-item text-dark text-decoration-none fw-bold px-3 py-1 hover-effect">Universities</a>
-          <a href="#" className="nav-item text-dark text-decoration-none fw-bold px-3 py-1 hover-effect">About</a>
-          <a href="#" className="nav-item text-dark text-decoration-none fw-bold px-3 py-1 hover-effect">Services</a>
-          <a href="#" className="nav-item text-dark text-decoration-none fw-bold px-3 py-1 hover-effect">Contact</a>
+          <a href="/about" className="nav-item text-dark text-decoration-none fw-bold px-3 py-1 hover-effect">About</a>
+          <a href="/services" className="nav-item text-dark text-decoration-none fw-bold px-3 py-1 hover-effect">Services</a>
+          <a href="/contact" className="nav-item text-dark text-decoration-none fw-bold px-3 py-1 hover-effect">Contact</a>
         </div>
 
         {/* Desktop Buttons */}
         <div className="d-none d-md-flex gap-2">
-          <button className="btn btn-outline-custom fw-bold">Sign In</button>
-          <button className="btn btn-primary-custom fw-bold">Get Started</button>
+          <a href="/sign-in" className="btn btn-outline-custom fw-bold">Sign In</a>
+          <a href="/sign-up" className="btn btn-primary-custom fw-bold">Get Started</a>
         </div>
 
         {/* Mobile Toggle */}
@@ -68,7 +68,7 @@ export function Nav() {
 
               {mobileProgramsOpen && (
                 <div className="mt-2">
-                  <a href="#" className="dropdown-link-mobile" onClick={() => setMobileProgramsOpen(false)}>Undergraduate (Bachelor's Degree)</a>
+                  <a href="/undergraduate-bachelors-degree" className="dropdown-link-mobile" onClick={() => setMobileProgramsOpen(false)}>Undergraduate (Bachelor's Degree)</a>
                   <a href="#" className="dropdown-link-mobile" onClick={() => setMobileProgramsOpen(false)}>Graduate (Master's Degree)</a>
                   <a href="#" className="dropdown-link-mobile" onClick={() => setMobileProgramsOpen(false)}>PhD / Research</a>
                   <a href="#" className="dropdown-link-mobile" onClick={() => setMobileProgramsOpen(false)}>Diploma / Certificate</a>
@@ -77,12 +77,12 @@ export function Nav() {
             </div>
 
             <a href="/universities" className="text-dark fw-semibold py-3 px-4 hover-card rounded-lg">Universities</a>
-            <a href="#" className="text-dark fw-semibold py-3 px-4 hover-card rounded-lg">About</a>
-            <a href="#" className="text-dark fw-semibold py-3 px-4 hover-card rounded-lg">Contact</a>
+            <a href="/contact" className="text-dark fw-semibold py-3 px-4 hover-card rounded-lg">About</a>
+            <a href="/about" className="text-dark fw-semibold py-3 px-4 hover-card rounded-lg">Contact</a>
 
             <div className="d-flex flex-column gap-3 mt-4">
-              <button className="btn btn-outline-mobile fw-bold">Sign In</button>
-              <button className="btn btn-primary-mobile fw-bold">Get Started</button>
+<a href="/sign-in" className="btn btn-outline-mobile fw-bold">Sign In</a>
+              <button className="btn btn-primary-mobile fw-bold getbtn">Get Started</button>
             </div>
           </div>
         </div>

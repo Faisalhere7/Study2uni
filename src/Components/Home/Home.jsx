@@ -2,15 +2,15 @@ import React from 'react'
 import Nav from '../Nav'
 import Herosec from './Herosec'
 import Services from './Services'
-import Footer from '../Footer'
 import Universitiessec from './Universitiessec'
 import Stories from './Stories'
 import Contactinfo from './Contactinfo'
+import Footer from '../Footer'
 
 const Home = () => {
   return (
     <div>
-      <Nav/>
+     <Nav/>
       <Herosec/>
       <Services/>
       <Universitiessec/>

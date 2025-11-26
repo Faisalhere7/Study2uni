@@ -28,7 +28,7 @@ export default function Herosec() {
     <section
       className="py-5 hero-section position-relative"
       style={{
-        background: "linear-gradient(135deg, #E7F6FF 0%, #D0EBFF 100%)",
+        background: "linear-gradient(135deg, #E7F6FF 0%, #E7F6FF 100%)",
         overflow: "hidden",
       }}
     >
@@ -37,6 +37,18 @@ export default function Herosec() {
         className="lines-background position-absolute w-100 h-100"
         style={{ top: 0, left: 0, pointerEvents: "none" }}
       >
+       <img 
+          src="/src/assets/image-background.svg" 
+          alt="bg" 
+          className="rotating-bg"
+          style={{
+            position: 'absolute', 
+            top: '0', 
+            right: '0', 
+            width: '90%', 
+            height: '80%',
+          }}
+        />
         <div className="line line1"></div>
         <div className="line line2"></div>
         <div className="line line3"></div>

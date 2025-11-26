@@ -5,11 +5,11 @@ export default function Contactinfo() {
   return (
     <section className="start-journey-section py-7">
       <div className="container text-center text-white">
-        <h2 className="display-5 fw-bold mb-4">Ready to Start Your Journey?</h2>
-        <p className="lead mb-5">
+        <h1 className="display-5 fw-bold mb-4" style={{fontSize:"70px"}}>Ready to Start Your Journey?</h1>
+        <p className="lead mb-5" style={{color:"#fff"}}>
           Join thousands of successful students who trusted us with their educational dreams. Let’s make your study abroad goals a reality.
         </p>
-        <a href="/contact" className="btn btn-lg btn-outline-light fw-bold start-journey-btn">
+        <a href="/contact" className="btn btn-lg btn-outline-light fw-bold start-journey-btn" >
           Book Free Consultation
         </a>
       </div>
